@@ -1,0 +1,118 @@
+[debug] [2022-10-21T09:32:32.663Z] ----------------------------------------------------------------------
+[debug] [2022-10-21T09:32:32.669Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-10-21T09:32:32.671Z] CLI Version:   11.15.0
+[debug] [2022-10-21T09:32:32.671Z] Platform:      darwin
+[debug] [2022-10-21T09:32:32.671Z] Node Version:  v16.18.0
+[debug] [2022-10-21T09:32:32.672Z] Time:          Fri Oct 21 2022 12:32:32 GMT+0300 (Moscow Standard Time)
+[debug] [2022-10-21T09:32:32.673Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-21T09:32:32.678Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-10-21T09:32:32.715Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-21T09:32:32.716Z] > authorizing via signed-in user (d23618421@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/user/Documents/ad-project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-10-21T09:32:48.232Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-10-21T09:32:48.233Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":" Receive email updates about new Firebase features, research, and events","name":"itc-ads2"}
+[debug] [2022-10-21T09:32:48.480Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 403
+[debug] [2022-10-21T09:32:48.480Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 403 (Forbidden)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>403.</b> <ins>That’s an error.</ins>\n  <p>Your client does not have permission to get URL <code>/v1/projects</code> from this server.  <ins>That’s all we know.</ins>\n"
+[debug] [2022-10-21T09:32:48.818Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:260:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2022-10-21T09:32:53.398Z] ----------------------------------------------------------------------
+[debug] [2022-10-21T09:32:53.401Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-10-21T09:32:53.402Z] CLI Version:   11.15.0
+[debug] [2022-10-21T09:32:53.403Z] Platform:      darwin
+[debug] [2022-10-21T09:32:53.403Z] Node Version:  v16.18.0
+[debug] [2022-10-21T09:32:53.404Z] Time:          Fri Oct 21 2022 12:32:53 GMT+0300 (Moscow Standard Time)
+[debug] [2022-10-21T09:32:53.404Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-21T09:32:53.408Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-10-21T09:32:53.446Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-21T09:32:53.447Z] > authorizing via signed-in user (d23618421@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/user/Documents/ad-project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-10-21T09:33:22.130Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-10-21T09:33:22.131Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"itc-ads-prod","name":"itc-ads-prod"}
+[debug] [2022-10-21T09:33:22.546Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 403
+[debug] [2022-10-21T09:33:22.546Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 403 (Forbidden)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>403.</b> <ins>That’s an error.</ins>\n  <p>Your client does not have permission to get URL <code>/v1/projects</code> from this server.  <ins>That’s all we know.</ins>\n"
+[debug] [2022-10-21T09:33:22.973Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:260:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2022-10-21T09:36:36.643Z] ----------------------------------------------------------------------
+[debug] [2022-10-21T09:36:36.646Z] Command:       /usr/local/bin/node /usr/local/bin/firebase projects:create
+[debug] [2022-10-21T09:36:36.647Z] CLI Version:   11.15.0
+[debug] [2022-10-21T09:36:36.648Z] Platform:      darwin
+[debug] [2022-10-21T09:36:36.648Z] Node Version:  v16.18.0
+[debug] [2022-10-21T09:36:36.650Z] Time:          Fri Oct 21 2022 12:36:36 GMT+0300 (Moscow Standard Time)
+[debug] [2022-10-21T09:36:36.650Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-21T09:36:36.655Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-10-21T09:36:36.697Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-21T09:36:36.698Z] > authorizing via signed-in user (d23618421@gmail.com)
+[debug] [2022-10-21T09:37:02.115Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-10-21T09:37:02.116Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"itc-ads-prod","name":"itc-ads-prod"}
+[debug] [2022-10-21T09:37:02.318Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 403
+[debug] [2022-10-21T09:37:02.318Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 403 (Forbidden)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>403.</b> <ins>That’s an error.</ins>\n  <p>Your client does not have permission to get URL <code>/v1/projects</code> from this server.  <ins>That’s all we know.</ins>\n"
+[debug] [2022-10-21T09:37:02.541Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:260:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2022-10-21T09:37:59.246Z] ----------------------------------------------------------------------
+[debug] [2022-10-21T09:37:59.251Z] Command:       /usr/local/bin/node /usr/local/bin/firebase projects:list
+[debug] [2022-10-21T09:37:59.252Z] CLI Version:   11.15.0
+[debug] [2022-10-21T09:37:59.252Z] Platform:      darwin
+[debug] [2022-10-21T09:37:59.253Z] Node Version:  v16.18.0
+[debug] [2022-10-21T09:37:59.254Z] Time:          Fri Oct 21 2022 12:37:59 GMT+0300 (Moscow Standard Time)
+[debug] [2022-10-21T09:37:59.255Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-21T09:37:59.261Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-10-21T09:37:59.310Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-21T09:37:59.311Z] > authorizing via signed-in user (d23618421@gmail.com)
+[debug] [2022-10-21T09:37:59.319Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2022-10-21T09:37:59.530Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 403
+[debug] [2022-10-21T09:37:59.531Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-10-21T09:37:59.531Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2022-10-21T09:37:59.718Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:260:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
